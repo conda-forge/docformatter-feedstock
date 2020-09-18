@@ -5,7 +5,7 @@ Home: https://github.com/myint/docformatter
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Formats docstrings to follow `PEP 257 <https://www.python.org/dev/peps/pep-0257/>`_.
 
