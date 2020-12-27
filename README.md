@@ -5,9 +5,11 @@ Home: https://github.com/myint/docformatter
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/docformatter-feedstock/blob/master/LICENSE.txt)
 
 Summary: Formats docstrings to follow `PEP 257 <https://www.python.org/dev/peps/pep-0257/>`_.
+
+Development: https://github.com/myint/docformatter
 
 docformatter currently automatically formats docstrings to follow a subset of the PEP 257 conventions.
 
