@@ -149,4 +149,5 @@ Feedstock Maintainers
 =====================
 
 * [@carlodri](https://github.com/carlodri/)
+* [@weiji14](https://github.com/weiji14/)
 
