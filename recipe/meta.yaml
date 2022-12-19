@@ -18,12 +18,12 @@ build:
 
 requirements:
   host:
-    - python >2
+    - python >=3.6
     - pip
     - poetry-core >=1.0.0
   run:
     - charset-normalizer
-    - python >2
+    - python >=3.6
     - untokenize
 
 test:
