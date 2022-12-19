@@ -22,6 +22,7 @@ requirements:
     - pip
     - poetry-core >=1.0.0
   run:
+    - charset-normalizer
     - python >2
     - untokenize
 
