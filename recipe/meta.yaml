@@ -1,5 +1,5 @@
 {% set name = "docformatter" %}
-{% set version = "1.5.1" %}
+{% set version = "1.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3fa3cdb90cdbcdee82747c58410e47fc7e2e8c352b82bed80767915eb03f2e43
+  sha256: 2346dcc239b73bc4b62d1035e240d1338d154fb047a7e492f0168a93744222e2
 
 build:
   noarch: python
@@ -18,13 +18,13 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
     - poetry-core >=1.0.0
   run:
-    - charset-normalizer
-    - python >=3.6
-    - untokenize
+    - charset-normalizer >=3.0.0
+    - python >=3.7
+    - untokenize >=0.1.1
 
 test:
   commands:

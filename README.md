@@ -1,11 +1,11 @@
-About docformatter
-==================
+About docformatter-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/docformatter-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/myint/docformatter
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/docformatter-feedstock/blob/main/LICENSE.txt)
 
 Summary: Formats docstrings to follow `PEP 257 <https://www.python.org/dev/peps/pep-0257/>`_.
 
