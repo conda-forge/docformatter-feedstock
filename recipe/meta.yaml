@@ -1,5 +1,5 @@
 {% set name = "docformatter" %}
-{% set version = "1.6.0" %}
+{% set version = "1.6.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2346dcc239b73bc4b62d1035e240d1338d154fb047a7e492f0168a93744222e2
+  sha256: 49598da0f9e538802895142f08d15349d501800cf508af0e33fb23020dc840ec
 
 build:
   noarch: python
