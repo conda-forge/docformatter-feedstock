@@ -6,27 +6,29 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: ffed3da0daffa2e77f80ccba4f0e50bfa2755e1c10e130102571c890a61b246e
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - docformatter = docformatter.__main__:main
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - pip
     - poetry-core >=1.0.0
   run:
     - charset-normalizer >=3.0.0
-    - python >=3.7
+    - python >={{ python_min }}
     - untokenize >=0.1.1
 
 test:
+  requires:
+    - python {{ python_min }}
   commands:
     - docformatter -h
 
