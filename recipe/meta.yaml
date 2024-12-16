@@ -1,5 +1,6 @@
 {% set name = "docformatter" %}
 {% set version = "1.7.5" %}
+{% set python_min = "3.7" %}
 
 package:
   name: {{ name|lower }}
@@ -39,7 +40,7 @@ about:
   license_file: LICENSE
   summary: Formats docstrings to follow `PEP 257 <https://www.python.org/dev/peps/pep-0257/>`_.
   description: |
-    docformatter currently automatically formats docstrings to follow a subset of the PEP 257 conventions. 
+    docformatter currently automatically formats docstrings to follow a subset of the PEP 257 conventions.
   dev_url: https://github.com/myint/docformatter
 
 extra:
