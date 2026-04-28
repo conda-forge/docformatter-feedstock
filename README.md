@@ -3,16 +3,15 @@ About docformatter-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/docformatter-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/myint/docformatter
+Home: https://github.com/PyCQA/docformatter
 
 Package license: MIT
 
 Summary: Formats docstrings to follow `PEP 257 <https://www.python.org/dev/peps/pep-0257/>`_.
 
-Development: https://github.com/myint/docformatter
+Development: https://github.com/PyCQA/docformatter
 
 docformatter currently automatically formats docstrings to follow a subset of the PEP 257 conventions.
-
 
 Current build status
 ====================
