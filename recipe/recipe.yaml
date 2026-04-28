@@ -29,7 +29,6 @@ requirements:
   run:
     - charset-normalizer >=3.0.0
     - python >=${{ python_min }}
-    - untokenize >=0.1.1
 
 tests:
   - python:
