@@ -3,7 +3,7 @@ schema_version: 1
 context:
   name: docformatter
   version: 1.7.8
-  python_min: "3.9"
+  python_min: "3.10"
 
 package:
   name: ${{ name|lower }}
@@ -23,9 +23,9 @@ build:
 
 requirements:
   host:
-    - python ${{ python_min }}.*
     - pip
     - poetry-core >=1.0.0
+    - python ${{ python_min }}.*
   run:
     - charset-normalizer >=3.0.0
     - python >=${{ python_min }}
